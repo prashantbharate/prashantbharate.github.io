@@ -289,7 +289,7 @@ section#ProjectPage{
     border: 1px solid var(--primary);
     border-radius: 20px;
     height: auto;
-    width: 350px;
+    width: 320px;
     padding: 5%;
 }
 .card img{
@@ -303,14 +303,16 @@ section#ProjectPage{
     color: var(--pure);
    height: 150px;
 }
-.Tech{
+.Tech {
     width: 50%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
     justify-content: space-between;
-    margin: auto;
-
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 50px;
 }
 .button {
     display: flex;
@@ -424,7 +426,7 @@ section#ProjectPage{
 }
 
 .contact{
-    padding: 40px;
+    padding: 20px;
     background-color: var(--dark);
     box-shadow: 0 5px 35px rgba(0, 0, 0, 15);
 
@@ -668,6 +670,8 @@ section#ProjectPage{
      }
     .contact{
         width: 350px;
+        padding: 20px;
+
     }
     .infoBox div a {
     font-size: 14px;
@@ -722,7 +726,9 @@ section#ProjectPage{
         border-radius: 10px;
       
     }
-    
+    .about-img{
+        width:200px;
+    }
     .container{
         display: grid;
         grid-template-columns: 1fr;
@@ -738,7 +744,8 @@ section#ProjectPage{
        line-height: 30px;
     }
     .about .flex-1{
-        width: 75%;
+        /*width: 75%;
+        */
         margin: auto;
     }
     .about-img {
@@ -773,4 +780,20 @@ section#ProjectPage{
     }
 
 
- }
+    /* changes */
+    .about p {
+        font-size: 18px;
+        margin-bottom: 6rem;
+    }
+
+    .card {
+        margin-top: 2rem;
+        border: 1px solid var(--primary);
+        border-radius: 20px;
+        height: auto;
+        width: 300px;
+        padding: 5%;
+    }
+   
+}
+
